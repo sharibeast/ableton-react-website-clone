@@ -9,6 +9,7 @@ export default function HeroSection(props) {
     width: 100%;
     display: flex;
     position: relative;
+    margin-bottom: 800px;
   `;
 
   const Container = styled.div`

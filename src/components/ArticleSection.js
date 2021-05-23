@@ -3,7 +3,17 @@ import React from 'react'
 export default function ArticleSection() {
     return (
         <div>
-            this is article section
+            <h1>Article section</h1>
+            <h1>Article section</h1>
+            <h1>Article section</h1>
+            <h1>Article section</h1>
+            <h1>Article section</h1>
+            <h1>Article section</h1>
+            <h1>Article section</h1>
+            <h1>Article section</h1>
+            <h1>Article section</h1>
+            <h1>Article section</h1>
+            <h1>Article section</h1>
         </div>
     )
 }
