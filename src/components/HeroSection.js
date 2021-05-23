@@ -50,7 +50,7 @@ export default function HeroSection(props) {
       </Container>
       <Container
         background={BG1}
-        bottom="-715px"
+        bottom="-675px"
         left="40%"
         zindex="100"
         width="400px"
