@@ -23,7 +23,7 @@ export default function NavBar(props) {
   const NavLink = styled(Link)`
     margin: 0 20px;
     text-decoration: none;
-    color: ${(props) => props.inputColor || "black"};
+    color: ${(props) => props.color || "black"};
     font-weight: 600;
   `;
   const RegisterNav = styled.div``;
@@ -42,10 +42,10 @@ export default function NavBar(props) {
           <NavLink to="/">More</NavLink>
         </Nav>
         <RegisterNav>
-          <NavLink inputColor="#0001fb" to="/">
+          <NavLink color="#0001fb" to="/">
             Try live for free
           </NavLink>
-          <NavLink to="/">login or Register </NavLink>
+          <NavLink to="/">log in or Register </NavLink>
         </RegisterNav>
       </NavBarWrap>
     </NavBarContainer>
